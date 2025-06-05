@@ -1,7 +1,8 @@
 import { useState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
-import { Menu, Leaf } from "lucide-react";
+import { Menu } from "lucide-react";
+import logoImg from "@assets/africanvalleyfoods_logo_1749151193715.png";
 
 export default function Navigation() {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -36,9 +37,12 @@ export default function Navigation() {
         : "bg-white/95 backdrop-blur-sm shadow-sm"
     }`}>
       <div className="container mx-auto px-4 py-4 flex justify-between items-center">
-        <div className="flex items-center space-x-2 cursor-pointer" onClick={() => scrollToSection("home")}>
-          <Leaf className="text-warm-orange text-2xl h-8 w-8" />
-          <span className="text-xl font-bold text-dark-brown">African Valley Foods</span>
+        <div className="flex items-center space-x-3 cursor-pointer" onClick={() => scrollToSection("home")}>
+          <img 
+            src={logoImg} 
+            alt="African Valley Foods Logo" 
+            className="h-12 w-auto"
+          />
         </div>
         
         {/* Desktop Navigation */}

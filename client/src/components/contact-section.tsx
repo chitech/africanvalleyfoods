@@ -41,35 +41,9 @@ export default function ContactSection() {
     },
   });
 
-  const newsletterMutation = useMutation({
-    mutationFn: async (email: string) => {
-      const response = await apiRequest("POST", "/api/newsletter", { email });
-      return response.json();
-    },
-    onSuccess: (data) => {
-      toast({
-        title: "Subscribed!",
-        description: data.message,
-      });
-      setNewsletterEmail("");
-    },
-    onError: (error: any) => {
-      toast({
-        title: "Error",
-        description: error.message || "Something went wrong. Please try again.",
-        variant: "destructive",
-      });
-    },
-  });
-
   const handleContactSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     contactMutation.mutate(formData);
-  };
-
-  const handleNewsletterSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
-    newsletterMutation.mutate(newsletterEmail);
   };
 
   const handleInputChange = (field: string, value: string) => {

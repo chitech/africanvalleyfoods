@@ -1,5 +1,6 @@
-import { Leaf, Facebook, Instagram, Twitter, Youtube } from "lucide-react";
+import { Facebook, Instagram, Twitter, Youtube } from "lucide-react";
 import { motion } from "framer-motion";
+import logoImg from "@assets/africanvalleyfoods_logo_1749151193715.png";
 
 export default function Footer() {
   const scrollToSection = (sectionId: string) => {
@@ -41,9 +42,12 @@ export default function Footer() {
             transition={{ duration: 0.6 }}
             viewport={{ once: true }}
           >
-            <div className="flex items-center space-x-2 mb-6 cursor-pointer" onClick={() => scrollToSection("home")}>
-              <Leaf className="text-warm-orange text-2xl h-8 w-8" />
-              <span className="text-xl font-bold">African Valley Foods</span>
+            <div className="flex items-center mb-6 cursor-pointer" onClick={() => scrollToSection("home")}>
+              <img 
+                src={logoImg} 
+                alt="African Valley Foods Logo" 
+                className="h-16 w-auto"
+              />
             </div>
             <p className="text-gray-300">
               Diversified African food products company. From juices to spices, grains to traditional foods - connecting authentic African flavors with global markets.
