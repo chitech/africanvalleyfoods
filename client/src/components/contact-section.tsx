@@ -79,20 +79,20 @@ export default function ContactSection() {
   const contactInfo = [
     {
       icon: MapPin,
-      title: "Corporate Office",
-      content: "123 African Valley Street\nBusiness District, BD 12345",
+      title: "Business Address",
+      content: "United States\nServing African & Diaspora Communities",
       color: "text-warm-orange bg-warm-orange/10",
     },
     {
       icon: Phone,
-      title: "Partnership Hotline",
-      content: "+1 (555) 123-JUICE\nMon-Fri 9AM-6PM EST",
+      title: "Business Inquiries",
+      content: "Contact us for partnership opportunities\nMon-Fri 9AM-6PM EST",
       color: "text-red-600 bg-red-600/10",
     },
     {
       icon: Mail,
-      title: "Partnership Inquiries",
-      content: "partnerships@africanvalleyfoods.com\nWe reply within 24 hours",
+      title: "Partnership & Wholesale",
+      content: "info@africanvalleyfoods.com\nWholesale & Distribution Inquiries",
       color: "text-deep-orange bg-deep-orange/10",
     },
   ];
@@ -109,9 +109,9 @@ export default function ContactSection() {
             transition={{ duration: 0.6 }}
             viewport={{ once: true }}
           >
-            <h2 className="text-4xl font-bold mb-6">Industry Newsletter</h2>
+            <h2 className="text-4xl font-bold mb-6">Connect with African Culinary Heritage</h2>
             <p className="text-xl mb-8 opacity-90">
-              Get supply chain updates, market insights, product launches, and partnership opportunities across our diverse food portfolio
+              Stay updated on authentic African food products, traditional recipes, cultural insights, and new product launches that celebrate Africa's diverse culinary heritage
             </p>
             
             <div className="bg-white/10 backdrop-blur-sm p-8 rounded-2xl">

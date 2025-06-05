@@ -64,13 +64,13 @@ export default function HeroSection() {
           <div className="space-y-4">
             <h1 className="text-5xl lg:text-6xl font-bold text-dark-brown leading-tight">
               Partner with{" "}
-              <span className="text-warm-orange font-playfair italic">African Valley</span>
-              <br />
-              Food Products
+              <span className="text-warm-orange font-playfair italic">African Valley Foods</span>
+              <span className="text-sm align-super">®</span>
             </h1>
             <p className="text-xl text-gray-600 leading-relaxed">
-              Bring authentic African food products to your market. Partner with our diversified food company 
-              for sustainable growth and exceptional quality across juices, spices, grains, and traditional foods.
+              Sharing Africa's diverse culinary traditions with those seeking authentic heritage. 
+              Partner with us to provide high-quality, nutritious African food products that celebrate 
+              culinary diversity and connect communities across borders and generations.
             </p>
           </div>
           

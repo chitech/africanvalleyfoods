@@ -41,7 +41,7 @@ export default function ProductsSection() {
     },
     {
       name: "Premium Juice Collection",
-      description: "Authentic African fruit juices including baobab, hibiscus, and tropical blends for wellness and lifestyle",
+      description: "Authentic African fruit juices connecting communities to traditional flavors. From baobab superfruit to hibiscus wellness blends - nourishment that celebrates cultural heritage",
       features: "Natural • Traditional Recipes • Health Benefits",
       image: yogaClassImg,
     },
@@ -62,7 +62,8 @@ export default function ProductsSection() {
             <span className="text-warm-orange font-semibold italic">"Food From Our Land, Food For Our Soul"</span>
           </p>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            Premium African flour products, spices, and beverages - authentic ingredients for global markets
+            High-quality, nutritious African food products celebrating culinary diversity. 
+            From traditional flours to authentic spices and beverages - connecting communities to their heritage.
           </p>
         </motion.div>
         

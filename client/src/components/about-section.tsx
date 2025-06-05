@@ -14,16 +14,21 @@ export default function AboutSection() {
             viewport={{ once: true }}
           >
             <div>
-              <h2 className="text-4xl font-bold text-dark-brown mb-6">About African Valley Foods</h2>
+              <h2 className="text-4xl font-bold text-dark-brown mb-6">About African Valley Foods®</h2>
               <p className="text-lg text-gray-600 mb-6 leading-relaxed">
-                Founded in 2018, African Valley Foods is a diversified food products company specializing in 
-                authentic African ingredients and products. Like Cargill, we operate across multiple food 
-                categories with global sourcing, processing, and distribution capabilities.
+                At African Valley Foods®, we are committed to sharing the diverse culinary traditions across 
+                Africa with those that have lost that heritage. Our mission is to provide high-quality, 
+                nutritious, and healthy food products that celebrate the diversity of Africa's culinary heritage.
               </p>
               <p className="text-lg text-gray-600 mb-6 leading-relaxed">
-                Our comprehensive portfolio includes premium juices, traditional spices, specialty grains, 
-                and processed foods. We partner with retailers, food service operators, and distributors 
-                worldwide to bring authentic African flavors to global markets through scalable supply solutions.
+                We cater to both the African and African Diaspora markets, as well as individuals and communities 
+                interested in African cuisine. Through e-commerce, wholesale distribution, and ready-to-eat meal kits, 
+                we make traditional authentic African meals accessible without the need to visit Africa.
+              </p>
+              <p className="text-lg text-gray-600 mb-6 leading-relaxed">
+                We believe that food is more than just nourishment; it's a cultural experience that connects 
+                people across borders and generations. African Valley Foods® is your gateway to exploring 
+                the diverse tastes and cultural richness of Africa without leaving your doorstep.
               </p>
               <div className="grid grid-cols-2 gap-6">
                 <div className="text-center">
