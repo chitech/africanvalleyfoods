@@ -10,6 +10,13 @@ import yogaClassImg from "@assets/african_valley_yoga_class_1749149694491.png";
 export default function ProductsSection() {
   const products = [
     {
+      name: "Premium Juice Collection",
+      description: "Authentic African fruit juices connecting communities to traditional flavors. From baobab superfruit to hibiscus wellness blends - nourishment that celebrates cultural heritage",
+      features: "Natural • Traditional Recipes • Health Benefits",
+      image: yogaClassImg,
+    },
+    {
+      
       name: "Cassava Flour",
       description: "Premium cassava root flour, gluten-free and rich in carbohydrates for traditional African cooking",
       features: "Gluten-Free • Traditional • 16 OZ",
@@ -39,12 +46,7 @@ export default function ProductsSection() {
       features: "Authentic • Direct Sourced • Premium Quality",
       image: "https://images.unsplash.com/photo-1596040033229-a9821ebd058d?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=300",
     },
-    {
-      name: "Premium Juice Collection",
-      description: "Authentic African fruit juices connecting communities to traditional flavors. From baobab superfruit to hibiscus wellness blends - nourishment that celebrates cultural heritage",
-      features: "Natural • Traditional Recipes • Health Benefits",
-      image: yogaClassImg,
-    },
+  
   ];
 
   return (
