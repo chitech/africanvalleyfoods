@@ -10,8 +10,8 @@ import yogaClassImg from "@assets/african_valley_yoga_class_1749149694491.png";
 export default function ProductsSection() {
   const products = [
     {
-      name: "Premium Juice Collection",
-      description: "Authentic African fruit juices connecting communities to traditional flavors. From baobab superfruit to hibiscus wellness blends - nourishment that celebrates cultural heritage",
+      name: "Premium NaturalJuice Collection",
+      description: "Authentic African fruit juices connecting communities to traditional flavors. From fresh ginger and beetroot to six wild mangoes our juices blends - nourishment that celebrates cultural heritage",
       features: "Natural • Traditional Recipes • Health Benefits",
       image: yogaClassImg,
     },
