@@ -62,21 +62,21 @@ export default function HeroSection() {
         >
           <div className="space-y-4">
             <h1 className="text-5xl lg:text-6xl font-bold text-dark-brown leading-tight">
-              Authentic{" "}
-              <span className="text-warm-orange font-playfair italic">African</span>
+              Partner with{" "}
+              <span className="text-warm-orange font-playfair italic">African Valley</span>
               <br />
-              Flavors Delivered
+              Premium Juices
             </h1>
             <p className="text-xl text-gray-600 leading-relaxed">
-              Experience the rich, diverse tastes of Africa with our premium selection of traditional foods, 
-              spices, and ingredients delivered fresh to your doorstep.
+              Bring authentic African juice flavors to your market. Partner with our premium brand 
+              for sustainable growth and exceptional quality products that customers love.
             </p>
           </div>
           
           {/* Lead Capture Form */}
           <Card className="shadow-xl border border-gray-100">
             <CardContent className="p-8">
-              <h3 className="text-2xl font-semibold text-dark-brown mb-6">Get Your Free Taste Guide</h3>
+              <h3 className="text-2xl font-semibold text-dark-brown mb-6">Request Partnership Information</h3>
               <form onSubmit={handleSubmit} className="space-y-4">
                 <div className="grid md:grid-cols-2 gap-4">
                   <Input
@@ -121,7 +121,7 @@ export default function HeroSection() {
                     "Sending..."
                   ) : (
                     <>
-                      Download Free Guide <Download className="ml-2 h-4 w-4" />
+                      Request Partnership Package <Download className="ml-2 h-4 w-4" />
                     </>
                   )}
                 </Button>
@@ -140,8 +140,8 @@ export default function HeroSection() {
           transition={{ duration: 0.8, delay: 0.2 }}
         >
           <img
-            src="https://images.unsplash.com/photo-1546833999-b9f581a1996d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600"
-            alt="Traditional African feast with various dishes"
+            src="https://images.unsplash.com/photo-1622597467836-f3285f2131b8?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600"
+            alt="Premium African juice bottles with natural ingredients"
             className="rounded-3xl shadow-2xl w-full h-auto"
           />
           <div className="absolute -top-4 -right-4 bg-red-600 text-white p-4 rounded-full">

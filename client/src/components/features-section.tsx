@@ -1,24 +1,24 @@
-import { Leaf, Truck, Heart } from "lucide-react";
+import { Handshake, TrendingUp, Award } from "lucide-react";
 import { motion } from "framer-motion";
 
 export default function FeaturesSection() {
   const features = [
     {
-      icon: Leaf,
-      title: "100% Authentic",
-      description: "Traditional recipes passed down through generations, using only the finest authentic ingredients.",
+      icon: Handshake,
+      title: "Proven Partnership Model",
+      description: "Join our successful network of distributors and retailers who've grown their revenue with our premium juice brand.",
       color: "text-warm-orange bg-warm-orange/10",
     },
     {
-      icon: Truck,
-      title: "Fresh Delivery",
-      description: "Farm-to-table freshness delivered right to your door with our expedited shipping service.",
+      icon: TrendingUp,
+      title: "Market Growth",
+      description: "Tap into the rapidly expanding African beverage market with authentic flavors that customers are craving.",
       color: "text-red-600 bg-red-600/10",
     },
     {
-      icon: Heart,
-      title: "Made with Love",
-      description: "Every dish is prepared with care and passion by our experienced African chefs.",
+      icon: Award,
+      title: "Premium Quality",
+      description: "Award-winning juices made from authentic African fruits with sustainable sourcing and premium packaging.",
       color: "text-deep-orange bg-deep-orange/10",
     },
   ];
@@ -33,9 +33,9 @@ export default function FeaturesSection() {
           transition={{ duration: 0.6 }}
           viewport={{ once: true }}
         >
-          <h2 className="text-4xl font-bold text-dark-brown mb-4">Why Choose African Valley Foods?</h2>
+          <h2 className="text-4xl font-bold text-dark-brown mb-4">Why Partner with African Valley Foods?</h2>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-            Discover what makes our authentic African cuisine stand out from the rest
+            Join a winning partnership that delivers growth, quality, and authentic African juice flavors
           </p>
         </motion.div>
         
