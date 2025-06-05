@@ -25,10 +25,8 @@ export default function Footer() {
   ];
 
   const socialLinks = [
-    { icon: Facebook, href: "#", label: "Facebook" },
-    { icon: Instagram, href: "#", label: "Instagram" },
-    { icon: Twitter, href: "#", label: "Twitter" },
-    { icon: Youtube, href: "#", label: "YouTube" },
+    { icon: Instagram, href: "@africanvalleyfoods", label: "Instagram" },
+   
   ];
 
   return (
@@ -116,7 +114,7 @@ export default function Footer() {
           >
             <h4 className="text-lg font-semibold mb-6">Partnership Contact</h4>
             <div className="space-y-3 text-gray-300">
-              <p>3700 W Agagtite Street</p>
+              <p>3700 W Agatite Street</p>
               <p>Chicago, IL 60625 </p>
               
               <p>africanvalleyfoods@gmail.com</p>
