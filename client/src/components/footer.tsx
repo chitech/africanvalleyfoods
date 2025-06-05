@@ -25,7 +25,7 @@ export default function Footer() {
   ];
 
   const socialLinks = [
-    { icon: Instagram, href: "@africanvalleyfoods", label: "Instagram" },
+    { icon: Instagram, href: "https://www.instagram.com/africanvalleyfoods", label: "Instagram" },
    
   ];
 
