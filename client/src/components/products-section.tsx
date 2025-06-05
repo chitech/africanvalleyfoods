@@ -52,9 +52,9 @@ export default function ProductsSection() {
           transition={{ duration: 0.6 }}
           viewport={{ once: true }}
         >
-          <h2 className="text-4xl font-bold text-dark-brown mb-4">Our Premium Juice Collection</h2>
+          <h2 className="text-4xl font-bold text-dark-brown mb-4">Featured Product Line - Premium Juices</h2>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-            Authentic African juice flavors crafted from traditional recipes and premium ingredients
+            Showcasing our juice portfolio - part of our comprehensive African food products range including spices, grains, and traditional foods
           </p>
         </motion.div>
         

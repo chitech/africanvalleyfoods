@@ -109,9 +109,9 @@ export default function ContactSection() {
             transition={{ duration: 0.6 }}
             viewport={{ once: true }}
           >
-            <h2 className="text-4xl font-bold mb-6">Partner Newsletter</h2>
+            <h2 className="text-4xl font-bold mb-6">Industry Newsletter</h2>
             <p className="text-xl mb-8 opacity-90">
-              Get partnership updates, market insights, and exclusive business opportunities delivered to your inbox
+              Get supply chain updates, market insights, product launches, and partnership opportunities across our diverse food portfolio
             </p>
             
             <div className="bg-white/10 backdrop-blur-sm p-8 rounded-2xl">

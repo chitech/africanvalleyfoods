@@ -15,14 +15,14 @@ export default function AboutSection() {
             <div>
               <h2 className="text-4xl font-bold text-dark-brown mb-6">About African Valley Foods</h2>
               <p className="text-lg text-gray-600 mb-6 leading-relaxed">
-                Founded in 2018, African Valley Foods has become the leading premium juice brand 
-                specializing in authentic African flavors. We bridge traditional African fruit knowledge 
-                with modern production standards to create exceptional beverage experiences.
+                Founded in 2018, African Valley Foods is a diversified food products company specializing in 
+                authentic African ingredients and products. Like Cargill, we operate across multiple food 
+                categories with global sourcing, processing, and distribution capabilities.
               </p>
               <p className="text-lg text-gray-600 mb-6 leading-relaxed">
-                Our partnership program empowers retailers and distributors to bring these unique, 
-                health-conscious beverages to their markets. With proven track records, premium packaging, 
-                and comprehensive support, we help our partners succeed in the growing wellness beverage sector.
+                Our comprehensive portfolio includes premium juices, traditional spices, specialty grains, 
+                and processed foods. We partner with retailers, food service operators, and distributors 
+                worldwide to bring authentic African flavors to global markets through scalable supply solutions.
               </p>
               <div className="grid grid-cols-2 gap-6">
                 <div className="text-center">
@@ -30,8 +30,8 @@ export default function AboutSection() {
                   <div className="text-gray-600">Partner Locations</div>
                 </div>
                 <div className="text-center">
-                  <div className="text-3xl font-bold text-warm-orange mb-2">8</div>
-                  <div className="text-gray-600">Premium Flavors</div>
+                  <div className="text-3xl font-bold text-warm-orange mb-2">25+</div>
+                  <div className="text-gray-600">Product Categories</div>
                 </div>
               </div>
             </div>

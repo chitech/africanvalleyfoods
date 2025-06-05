@@ -46,7 +46,7 @@ export default function Footer() {
               <span className="text-xl font-bold">African Valley Foods</span>
             </div>
             <p className="text-gray-300">
-              Premium African juice brand partnerships. Sustainable sourcing, authentic flavors, proven success.
+              Diversified African food products company. From juices to spices, grains to traditional foods - connecting authentic African flavors with global markets.
             </p>
             <div className="flex space-x-4">
               {socialLinks.map((social) => (

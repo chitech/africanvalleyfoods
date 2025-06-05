@@ -1,24 +1,24 @@
-import { Handshake, TrendingUp, Award } from "lucide-react";
+import { Package, Globe, Layers } from "lucide-react";
 import { motion } from "framer-motion";
 
 export default function FeaturesSection() {
   const features = [
     {
-      icon: Handshake,
-      title: "Proven Partnership Model",
-      description: "Join our successful network of distributors and retailers who've grown their revenue with our premium juice brand.",
+      icon: Package,
+      title: "Diversified Product Portfolio",
+      description: "Complete range of African food products including juices, spices, grains, traditional foods, and specialty ingredients.",
       color: "text-warm-orange bg-warm-orange/10",
     },
     {
-      icon: TrendingUp,
-      title: "Market Growth",
-      description: "Tap into the rapidly expanding African beverage market with authentic flavors that customers are craving.",
+      icon: Globe,
+      title: "Global Supply Chain",
+      description: "Established sourcing networks across Africa with quality control and sustainable farming partnerships worldwide.",
       color: "text-red-600 bg-red-600/10",
     },
     {
-      icon: Award,
-      title: "Premium Quality",
-      description: "Award-winning juices made from authentic African fruits with sustainable sourcing and premium packaging.",
+      icon: Layers,
+      title: "Scalable Solutions",
+      description: "From retail partnerships to food service distribution, we provide flexible solutions that grow with your business needs.",
       color: "text-deep-orange bg-deep-orange/10",
     },
   ];

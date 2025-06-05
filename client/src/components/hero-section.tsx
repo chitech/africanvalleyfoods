@@ -65,11 +65,11 @@ export default function HeroSection() {
               Partner with{" "}
               <span className="text-warm-orange font-playfair italic">African Valley</span>
               <br />
-              Premium Juices
+              Food Products
             </h1>
             <p className="text-xl text-gray-600 leading-relaxed">
-              Bring authentic African juice flavors to your market. Partner with our premium brand 
-              for sustainable growth and exceptional quality products that customers love.
+              Bring authentic African food products to your market. Partner with our diversified food company 
+              for sustainable growth and exceptional quality across juices, spices, grains, and traditional foods.
             </p>
           </div>
           

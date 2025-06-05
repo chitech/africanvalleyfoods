@@ -7,19 +7,19 @@ export default function TestimonialsSection() {
     {
       name: "Marcus Thompson",
       role: "Regional Distributor, Fresh Market Chain",
-      content: "Partnering with African Valley Foods has increased our beverage sales by 40%. Customers love the authentic flavors and premium quality.",
+      content: "African Valley Foods' diversified portfolio has transformed our ethnic foods section. From juices to spices, their quality and supply chain reliability are unmatched.",
       image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=150&h=150&face",
     },
     {
       name: "Priya Patel",
-      role: "Store Manager, Organic Foods Co-op",
-      content: "African Valley juices are our fastest-selling beverages. The brand recognition and customer loyalty are exceptional.",
+      role: "Procurement Director, Food Service Group",
+      content: "Working with African Valley Foods has given us access to authentic ingredients that our chefs love. Their B2B support and consistent supply are exceptional.",
       image: "https://images.unsplash.com/photo-1494790108755-2616b612b77c?ixlib=rb-4.0.3&auto=format&fit=crop&w=150&h=150&face",
     },
     {
       name: "James Rodriguez",
-      role: "Wholesale Buyer, Gourmet Markets",
-      content: "Outstanding support, consistent quality, and excellent margins. African Valley Foods is our top-performing juice brand partner.",
+      role: "VP Supply Chain, International Grocery",
+      content: "African Valley Foods operates like the premium food companies we prefer. Professional, scalable, and they understand global food distribution requirements.",
       image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&auto=format&fit=crop&w=150&h=150&face",
     },
   ];
