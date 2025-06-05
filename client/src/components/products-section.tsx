@@ -90,11 +90,7 @@ export default function ProductsSection() {
                       {product.features}
                     </span>
                   </div>
-                  <div className="text-center">
-                    <Button className="bg-red-600 text-white hover:bg-red-700 transition-colors rounded-full px-6">
-                      Learn More
-                    </Button>
-                  </div>
+
                 </CardContent>
               </Card>
             </motion.div>
