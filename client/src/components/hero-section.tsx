@@ -7,7 +7,7 @@ import { useMutation } from "@tanstack/react-query";
 import { apiRequest } from "@/lib/queryClient";
 import { useToast } from "@/hooks/use-toast";
 import { motion } from "framer-motion";
-import cassavaFlourImg from "@assets/african_valley_casava_flour_1749147623825.jpg";
+import customerImg from "@assets/african_valley_customer_1749147623825.jpeg";
 
 export default function HeroSection() {
   const [formData, setFormData] = useState({
@@ -141,8 +141,8 @@ export default function HeroSection() {
           transition={{ duration: 0.8, delay: 0.2 }}
         >
           <img
-            src={cassavaFlourImg}
-            alt="African Valley Foods premium flour products featuring authentic African ingredients"
+            src={customerImg}
+            alt="African Valley Foods customer enjoying authentic African food products"
             className="rounded-3xl shadow-2xl w-full h-auto"
           />
           <div className="absolute -top-4 -right-4 bg-red-600 text-white p-4 rounded-full">
