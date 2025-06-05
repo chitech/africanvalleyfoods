@@ -45,8 +45,8 @@ export default function AboutSection() {
             viewport={{ once: true }}
           >
             <img
-              src="https://images.unsplash.com/photo-1622597467836-f3285f2131b8?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400"
-              alt="African Valley Foods premium juice bottles and natural ingredients"
+              src="/attached_assets/african_valley_sweetpotato_1749147623825.jpg"
+              alt="African Valley Foods premium flour products and packaging"
               className="rounded-3xl shadow-2xl w-full h-auto"
             />
             <div className="absolute -bottom-6 -left-6 bg-red-600 text-white p-6 rounded-2xl shadow-lg">
