@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import sweetPotatoFlourImg from "@assets/african_valley_sweetpotato_1749147623825.jpg";
 
 export default function AboutSection() {
   return (
@@ -45,7 +46,7 @@ export default function AboutSection() {
             viewport={{ once: true }}
           >
             <img
-              src="/attached_assets/african_valley_sweetpotato_1749147623825.jpg"
+              src={sweetPotatoFlourImg}
               alt="African Valley Foods premium flour products and packaging"
               className="rounded-3xl shadow-2xl w-full h-auto"
             />
