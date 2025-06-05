@@ -46,7 +46,7 @@ export default function Footer() {
               <span className="text-xl font-bold">African Valley Foods</span>
             </div>
             <p className="text-gray-300">
-              Bringing authentic African flavors to your table with premium quality ingredients and traditional recipes.
+              Premium African juice brand partnerships. Sustainable sourcing, authentic flavors, proven success.
             </p>
             <div className="flex space-x-4">
               {socialLinks.map((social) => (
@@ -110,12 +110,12 @@ export default function Footer() {
             transition={{ duration: 0.6, delay: 0.3 }}
             viewport={{ once: true }}
           >
-            <h4 className="text-lg font-semibold mb-6">Contact Info</h4>
+            <h4 className="text-lg font-semibold mb-6">Partnership Contact</h4>
             <div className="space-y-3 text-gray-300">
               <p>123 African Valley Street</p>
-              <p>Foodie District, FD 12345</p>
-              <p>+1 (555) 123-FOOD</p>
-              <p>hello@africanvalleyfoods.com</p>
+              <p>Business District, BD 12345</p>
+              <p>+1 (555) 123-JUICE</p>
+              <p>partnerships@africanvalleyfoods.com</p>
             </div>
           </motion.div>
         </div>

@@ -29,6 +29,7 @@ export class MemStorage implements IStorage {
     const lead: Lead = {
       ...insertLead,
       id,
+      source: insertLead.source || "lead_form",
       createdAt: new Date(),
     };
     this.leads.set(id, lead);

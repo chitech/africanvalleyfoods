@@ -26,7 +26,7 @@ export default function Navigation() {
     { label: "Home", href: "#home" },
     { label: "Products", href: "#products" },
     { label: "About", href: "#about" },
-    { label: "Contact", href: "#contact" },
+    { label: "Partnership", href: "#contact" },
   ];
 
   return (
@@ -56,10 +56,10 @@ export default function Navigation() {
         
         <div className="hidden md:block">
           <Button 
-            onClick={() => scrollToSection("home")}
+            onClick={() => scrollToSection("contact")}
             className="bg-warm-orange text-white hover:bg-deep-orange transition-colors rounded-full px-6"
           >
-            Get Started
+            Partner With Us
           </Button>
         </div>
 
@@ -83,10 +83,10 @@ export default function Navigation() {
                   </button>
                 ))}
                 <Button 
-                  onClick={() => scrollToSection("home")}
+                  onClick={() => scrollToSection("contact")}
                   className="bg-warm-orange text-white hover:bg-deep-orange transition-colors rounded-full mt-4"
                 >
-                  Get Started
+                  Partner With Us
                 </Button>
               </div>
             </SheetContent>

@@ -183,7 +183,7 @@ export default function ContactSection() {
             >
               <Card className="bg-gradient-to-br from-neutral/20 to-white shadow-lg">
                 <CardContent className="p-8">
-                  <h3 className="text-2xl font-semibold text-dark-brown mb-6">Send Us a Message</h3>
+                  <h3 className="text-2xl font-semibold text-dark-brown mb-6">Partnership Inquiry</h3>
                   <form onSubmit={handleContactSubmit} className="space-y-6">
                     <div className="grid md:grid-cols-2 gap-4">
                       <Input
