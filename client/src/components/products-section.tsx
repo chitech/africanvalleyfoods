@@ -5,6 +5,7 @@ import cassavaFlourImg from "@assets/african_valley_casava_flour_1749147623825.j
 import cocoyamFlourImg from "@assets/african_valley_cocoyam_1749147623825.jpg";
 import breadfruitFlourImg from "@assets/african_valley_foods_bread_flour_1749147623825.jpg";
 import sweetPotatoFlourImg from "@assets/african_valley_sweetpotato_1749147623825.jpg";
+import yogaClassImg from "@assets/african_valley_yoga_class_1749149694491.png";
 
 export default function ProductsSection() {
   const products = [
@@ -40,9 +41,9 @@ export default function ProductsSection() {
     },
     {
       name: "Premium Juice Collection",
-      description: "Authentic African fruit juices including baobab, hibiscus, and tropical blends",
+      description: "Authentic African fruit juices including baobab, hibiscus, and tropical blends for wellness and lifestyle",
       features: "Natural • Traditional Recipes • Health Benefits",
-      image: "https://images.unsplash.com/photo-1622597467836-f3285f2131b8?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=300",
+      image: yogaClassImg,
     },
   ];
 
