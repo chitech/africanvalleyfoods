@@ -112,17 +112,17 @@ export default function Footer() {
           >
             <h4 className="text-lg font-semibold mb-6">Partnership Contact</h4>
             <div className="space-y-3 text-gray-300">
-              <p>123 African Valley Street</p>
-              <p>Business District, BD 12345</p>
-              <p>+1 (555) 123-JUICE</p>
-              <p>partnerships@africanvalleyfoods.com</p>
+              <p>3700 W Agagtite Street</p>
+              <p>Chicago, IL 60625 </p>
+              
+              <p>africanvalleyfoods@gmail.com</p>
             </div>
           </motion.div>
         </div>
         
         <div className="border-t border-gray-700 pt-8 text-center">
           <p className="text-gray-300">
-            © 2024 African Valley Foods. All rights reserved. |{" "}
+            © 2025 African Valley Foods. All rights reserved. |{" "}
             <a href="#" className="hover:text-warm-orange transition-colors duration-200">
               Privacy Policy
             </a>{" "}

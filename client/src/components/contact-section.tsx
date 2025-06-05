@@ -17,7 +17,7 @@ export default function ContactSection() {
     message: "",
   });
   
-  const [newsletterEmail, setNewsletterEmail] = useState("");
+
   const { toast } = useToast();
 
   const contactMutation = useMutation({
@@ -99,47 +99,6 @@ export default function ContactSection() {
 
   return (
     <>
-      {/* Newsletter CTA Section */}
-      <section className="py-20 bg-gradient-to-r from-warm-orange to-deep-orange text-white">
-        <div className="container mx-auto px-4 text-center">
-          <motion.div 
-            className="max-w-3xl mx-auto"
-            initial={{ opacity: 0, y: 50 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6 }}
-            viewport={{ once: true }}
-          >
-            <h2 className="text-4xl font-bold mb-6">Connect with African Culinary Heritage</h2>
-            <p className="text-xl mb-8 opacity-90">
-              Stay updated on authentic African food products, traditional recipes, cultural insights, and new product launches that celebrate Africa's diverse culinary heritage
-            </p>
-            
-            <div className="bg-white/10 backdrop-blur-sm p-8 rounded-2xl">
-              <form onSubmit={handleNewsletterSubmit} className="flex flex-col md:flex-row gap-4">
-                <Input
-                  type="email"
-                  placeholder="Enter your email address"
-                  value={newsletterEmail}
-                  onChange={(e) => setNewsletterEmail(e.target.value)}
-                  required
-                  className="flex-1 px-6 py-4 rounded-lg text-gray-800 border-0 focus:ring-2 focus:ring-red-600"
-                />
-                <Button
-                  type="submit"
-                  disabled={newsletterMutation.isPending}
-                  className="bg-red-600 text-white px-8 py-4 rounded-lg font-semibold hover:bg-white hover:text-red-600 transition-colors"
-                >
-                  {newsletterMutation.isPending ? "Subscribing..." : "Subscribe Now"}
-                </Button>
-              </form>
-              <p className="text-sm opacity-75 mt-4">
-                <Shield className="w-4 h-4 inline mr-1" /> Business partnerships only. Professional updates and opportunities.
-              </p>
-            </div>
-          </motion.div>
-        </div>
-      </section>
-
       {/* Contact Section */}
       <section id="contact" className="py-20 bg-white">
         <div className="container mx-auto px-4">
