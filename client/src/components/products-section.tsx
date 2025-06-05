@@ -52,9 +52,9 @@ export default function ProductsSection() {
           transition={{ duration: 0.6 }}
           viewport={{ once: true }}
         >
-          <h2 className="text-4xl font-bold text-dark-brown mb-4">Featured Products</h2>
+          <h2 className="text-4xl font-bold text-dark-brown mb-4">Our Premium Juice Collection</h2>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-            Explore our most popular African dishes and ingredients
+            Authentic African juice flavors crafted from traditional recipes and premium ingredients
           </p>
         </motion.div>
         
@@ -77,10 +77,14 @@ export default function ProductsSection() {
                 <CardContent className="p-6">
                   <h3 className="text-xl font-semibold text-dark-brown mb-2">{product.name}</h3>
                   <p className="text-gray-600 mb-4">{product.description}</p>
-                  <div className="flex justify-between items-center">
-                    <span className="text-2xl font-bold text-warm-orange">{product.price}</span>
+                  <div className="mb-4">
+                    <span className="text-sm font-medium text-warm-orange bg-warm-orange/10 px-3 py-1 rounded-full">
+                      {product.features}
+                    </span>
+                  </div>
+                  <div className="text-center">
                     <Button className="bg-red-600 text-white hover:bg-red-700 transition-colors rounded-full px-6">
-                      Order Now
+                      Learn More
                     </Button>
                   </div>
                 </CardContent>

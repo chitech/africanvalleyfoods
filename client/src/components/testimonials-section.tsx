@@ -5,21 +5,21 @@ import { motion } from "framer-motion";
 export default function TestimonialsSection() {
   const testimonials = [
     {
-      name: "Michael Johnson",
-      role: "Regular Customer",
-      content: "The flavors are absolutely incredible! It's like having a taste of home delivered right to my door. The quality is outstanding.",
+      name: "Marcus Thompson",
+      role: "Regional Distributor, Fresh Market Chain",
+      content: "Partnering with African Valley Foods has increased our beverage sales by 40%. Customers love the authentic flavors and premium quality.",
       image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=150&h=150&face",
     },
     {
-      name: "Sarah Williams",
-      role: "Food Enthusiast",
-      content: "African Valley Foods has introduced my family to amazing new flavors. The authenticity and freshness are unmatched!",
+      name: "Priya Patel",
+      role: "Store Manager, Organic Foods Co-op",
+      content: "African Valley juices are our fastest-selling beverages. The brand recognition and customer loyalty are exceptional.",
       image: "https://images.unsplash.com/photo-1494790108755-2616b612b77c?ixlib=rb-4.0.3&auto=format&fit=crop&w=150&h=150&face",
     },
     {
-      name: "David Chen",
-      role: "Chef & Critic",
-      content: "Fast delivery, beautiful packaging, and the most authentic African cuisine I've found. Highly recommend to everyone!",
+      name: "James Rodriguez",
+      role: "Wholesale Buyer, Gourmet Markets",
+      content: "Outstanding support, consistent quality, and excellent margins. African Valley Foods is our top-performing juice brand partner.",
       image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&auto=format&fit=crop&w=150&h=150&face",
     },
   ];
@@ -42,8 +42,8 @@ export default function TestimonialsSection() {
           transition={{ duration: 0.6 }}
           viewport={{ once: true }}
         >
-          <h2 className="text-4xl font-bold text-dark-brown mb-4">What Our Customers Say</h2>
-          <p className="text-xl text-gray-600">Discover why thousands trust African Valley Foods</p>
+          <h2 className="text-4xl font-bold text-dark-brown mb-4">What Our Partners Say</h2>
+          <p className="text-xl text-gray-600">Discover why retailers and distributors choose African Valley Foods</p>
         </motion.div>
         
         <div className="grid md:grid-cols-3 gap-8">

@@ -13,25 +13,25 @@ export default function AboutSection() {
             viewport={{ once: true }}
           >
             <div>
-              <h2 className="text-4xl font-bold text-dark-brown mb-6">Our Story</h2>
+              <h2 className="text-4xl font-bold text-dark-brown mb-6">About African Valley Foods</h2>
               <p className="text-lg text-gray-600 mb-6 leading-relaxed">
-                Founded in 2018, African Valley Foods was born from a passion to share the rich culinary 
-                heritage of Africa with the world. Our founders, who grew up across different African 
-                countries, noticed the lack of authentic African cuisine available in mainstream markets.
+                Founded in 2018, African Valley Foods has become the leading premium juice brand 
+                specializing in authentic African flavors. We bridge traditional African fruit knowledge 
+                with modern production standards to create exceptional beverage experiences.
               </p>
               <p className="text-lg text-gray-600 mb-6 leading-relaxed">
-                We work directly with local farmers and traditional cooks across Africa to source the 
-                finest ingredients and time-honored recipes. Every product tells a story of culture, 
-                tradition, and the incredible diversity of African cuisine.
+                Our partnership program empowers retailers and distributors to bring these unique, 
+                health-conscious beverages to their markets. With proven track records, premium packaging, 
+                and comprehensive support, we help our partners succeed in the growing wellness beverage sector.
               </p>
               <div className="grid grid-cols-2 gap-6">
                 <div className="text-center">
-                  <div className="text-3xl font-bold text-warm-orange mb-2">5000+</div>
-                  <div className="text-gray-600">Happy Customers</div>
+                  <div className="text-3xl font-bold text-warm-orange mb-2">150+</div>
+                  <div className="text-gray-600">Partner Locations</div>
                 </div>
                 <div className="text-center">
-                  <div className="text-3xl font-bold text-warm-orange mb-2">15</div>
-                  <div className="text-gray-600">African Countries</div>
+                  <div className="text-3xl font-bold text-warm-orange mb-2">8</div>
+                  <div className="text-gray-600">Premium Flavors</div>
                 </div>
               </div>
             </div>
@@ -45,8 +45,8 @@ export default function AboutSection() {
             viewport={{ once: true }}
           >
             <img
-              src="https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400"
-              alt="African Valley Foods packaging and products"
+              src="https://images.unsplash.com/photo-1622597467836-f3285f2131b8?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400"
+              alt="African Valley Foods premium juice bottles and natural ingredients"
               className="rounded-3xl shadow-2xl w-full h-auto"
             />
             <div className="absolute -bottom-6 -left-6 bg-red-600 text-white p-6 rounded-2xl shadow-lg">

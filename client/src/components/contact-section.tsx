@@ -79,20 +79,20 @@ export default function ContactSection() {
   const contactInfo = [
     {
       icon: MapPin,
-      title: "Visit Our Store",
-      content: "123 African Valley Street\nFoodie District, FD 12345",
+      title: "Corporate Office",
+      content: "123 African Valley Street\nBusiness District, BD 12345",
       color: "text-warm-orange bg-warm-orange/10",
     },
     {
       icon: Phone,
-      title: "Call Us",
-      content: "+1 (555) 123-FOOD\nMon-Fri 9AM-6PM EST",
+      title: "Partnership Hotline",
+      content: "+1 (555) 123-JUICE\nMon-Fri 9AM-6PM EST",
       color: "text-red-600 bg-red-600/10",
     },
     {
       icon: Mail,
-      title: "Email Us",
-      content: "hello@africanvalleyfoods.com\nWe reply within 24 hours",
+      title: "Partnership Inquiries",
+      content: "partnerships@africanvalleyfoods.com\nWe reply within 24 hours",
       color: "text-deep-orange bg-deep-orange/10",
     },
   ];
@@ -109,9 +109,9 @@ export default function ContactSection() {
             transition={{ duration: 0.6 }}
             viewport={{ once: true }}
           >
-            <h2 className="text-4xl font-bold mb-6">Stay Connected with African Valley Foods</h2>
+            <h2 className="text-4xl font-bold mb-6">Partner Newsletter</h2>
             <p className="text-xl mb-8 opacity-90">
-              Get exclusive recipes, cooking tips, and special offers delivered to your inbox
+              Get partnership updates, market insights, and exclusive business opportunities delivered to your inbox
             </p>
             
             <div className="bg-white/10 backdrop-blur-sm p-8 rounded-2xl">
@@ -133,7 +133,7 @@ export default function ContactSection() {
                 </Button>
               </form>
               <p className="text-sm opacity-75 mt-4">
-                <Shield className="w-4 h-4 inline mr-1" /> We respect your privacy. Unsubscribe at any time.
+                <Shield className="w-4 h-4 inline mr-1" /> Business partnerships only. Professional updates and opportunities.
               </p>
             </div>
           </motion.div>
@@ -150,8 +150,8 @@ export default function ContactSection() {
             transition={{ duration: 0.6 }}
             viewport={{ once: true }}
           >
-            <h2 className="text-4xl font-bold text-dark-brown mb-4">Get In Touch</h2>
-            <p className="text-xl text-gray-600">We'd love to hear from you and answer any questions</p>
+            <h2 className="text-4xl font-bold text-dark-brown mb-4">Start Your Partnership</h2>
+            <p className="text-xl text-gray-600">Ready to bring African Valley Foods to your market? Let's discuss opportunities</p>
           </motion.div>
           
           <div className="grid lg:grid-cols-2 gap-16">
