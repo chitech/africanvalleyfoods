@@ -3,33 +3,8 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { motion } from "framer-motion";
-import { useLocation } from "wouter";
 
 export default function ContactSection() {
-  const [, setLocation] = useLocation();
-
-  const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
-    e.preventDefault();
-    const form = e.currentTarget;
-    const formData = new FormData(form);
-
-    try {
-      const response = await fetch("/", {
-        method: "POST",
-        headers: { "Content-Type": "application/x-www-form-urlencoded" },
-        body: new URLSearchParams(formData as any).toString(),
-      });
-
-      if (response.ok) {
-        setLocation("/success");
-      } else {
-        console.error("Form submission failed");
-      }
-    } catch (error) {
-      console.error("Error submitting form:", error);
-    }
-  };
-
   return (
     <section id="contact" className="py-20 bg-gradient-to-b from-white to-neutral/30">
       <div className="container mx-auto px-4">
@@ -63,7 +38,7 @@ export default function ContactSection() {
                 method="POST" 
                 data-netlify="true"
                 data-netlify-honeypot="bot-field"
-                onSubmit={handleSubmit}
+                action="/success"
                 className="space-y-6"
               >
                 <input type="hidden" name="form-name" value="contact" />
