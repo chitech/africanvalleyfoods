@@ -1,7 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { motion } from "framer-motion";
 import { CheckCircle } from "lucide-react";
-import { Link } from "@tanstack/react-router";
+import { Link } from "wouter";
 
 export default function SuccessPage() {
   return (
@@ -17,7 +17,7 @@ export default function SuccessPage() {
         <p className="text-gray-600 mb-8">
           Your message has been received. We'll get back to you as soon as possible.
         </p>
-        <Link to="/">
+        <Link href="/">
           <Button className="bg-warm-orange hover:bg-warm-orange/90 text-white">
             Return to Home
           </Button>
