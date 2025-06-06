@@ -1,6 +1,8 @@
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { motion } from "framer-motion";
+import { useState } from "react";
+import { Modal } from "@/components/ui/modal";
 import cassavaFlourImg from "@assets/african_valley_casava_flour_1749147623825.jpg";
 import cocoyamFlourImg from "@assets/african_valley_cocoyam_1749147623825.jpg";
 import breadfruitFlourImg from "@assets/african_valley_foods_bread_flour_1749147623825.jpg";
@@ -10,6 +12,8 @@ import spiceBlendsImg from "@assets/spices_africanvalley_foods.png";
 import glutenFreeBurgerBunsImg from "@assets/gluten_free_africanvalley_buns.jpg";
 
 export default function ProductsSection() {
+  const [selectedImage, setSelectedImage] = useState<string | null>(null);
+
   const products = [
     {
       name: "Premium NaturalJuice Collection",
@@ -18,7 +22,6 @@ export default function ProductsSection() {
       image: yogaClassImg,
     },
     {
-      
       name: "Cassava Flour",
       description: "Premium cassava root flour, gluten-free and rich in carbohydrates for traditional African cooking",
       features: "Gluten-Free • Traditional • 16 OZ",
@@ -54,7 +57,6 @@ export default function ProductsSection() {
       features: "Gluten Free • Direct Sourced • Premium Quality",
       image: glutenFreeBurgerBunsImg,
     },
-  
   ];
 
   return (
@@ -88,7 +90,10 @@ export default function ProductsSection() {
               whileHover={{ scale: 1.02 }}
             >
               <Card className="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300">
-                <div className="relative w-full h-48 bg-gray-50">
+                <div 
+                  className="relative w-full h-48 bg-gray-50 cursor-pointer"
+                  onClick={() => setSelectedImage(product.image)}
+                >
                   <img
                     src={product.image}
                     alt={product.name}
@@ -103,13 +108,36 @@ export default function ProductsSection() {
                       {product.features}
                     </span>
                   </div>
-
                 </CardContent>
               </Card>
             </motion.div>
           ))}
         </div>
       </div>
+
+      <Modal 
+        isOpen={!!selectedImage} 
+        onClose={() => setSelectedImage(null)}
+        className="bg-white/95 backdrop-blur-sm"
+      >
+        {selectedImage && (
+          <div className="relative w-full h-full max-h-[80vh] flex items-center justify-center p-4">
+            <img
+              src={selectedImage}
+              alt="Product preview"
+              className="max-w-full max-h-full object-contain rounded-lg shadow-2xl"
+            />
+            <button
+              onClick={() => setSelectedImage(null)}
+              className="absolute top-4 right-4 text-gray-500 hover:text-gray-700 bg-white/80 rounded-full p-2 shadow-lg"
+            >
+              <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+              </svg>
+            </button>
+          </div>
+        )}
+      </Modal>
     </section>
   );
 }
