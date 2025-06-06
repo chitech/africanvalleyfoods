@@ -7,7 +7,7 @@ import breadfruitFlourImg from "@assets/african_valley_foods_bread_flour_1749147
 import sweetPotatoFlourImg from "@assets/african_valley_sweetpotato_1749147623825.jpg";
 import yogaClassImg from "@assets/african_valley_yoga_class_1749149694491.png";
 import spiceBlendsImg from "@assets/spices_africanvalley_foods.png";
-import glutenFreeBurgerBunsImg from "@assets/glutenfree_africanvalley_buns.png";
+import glutenFreeBurgerBunsImg from "@assets/gluten_free_africanvalley_buns.jpg";
 
 export default function ProductsSection() {
   const products = [
