@@ -25,20 +25,25 @@ export default function ContactSection() {
           <Card className="bg-white rounded-2xl shadow-lg">
             <CardContent className="p-8">
               {/* Hidden form for Netlify form detection */}
-              <form name="contact" data-netlify="true" hidden>
+              <form name="contact" data-netlify="true" data-netlify-honeypot="bot-field" hidden>
                 <input type="text" name="name" />
                 <input type="email" name="email" />
                 <input type="text" name="company" />
                 <textarea name="message"></textarea>
+                <input type="text" name="bot-field" />
               </form>
 
               <form 
                 name="contact" 
                 method="POST" 
                 data-netlify="true"
+                data-netlify-honeypot="bot-field"
                 className="space-y-6"
               >
                 <input type="hidden" name="form-name" value="contact" />
+                <div hidden>
+                  <input name="bot-field" />
+                </div>
                 
                 <div className="grid md:grid-cols-2 gap-6">
                   <div>
