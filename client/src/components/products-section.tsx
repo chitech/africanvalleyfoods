@@ -6,6 +6,7 @@ import cocoyamFlourImg from "@assets/african_valley_cocoyam_1749147623825.jpg";
 import breadfruitFlourImg from "@assets/african_valley_foods_bread_flour_1749147623825.jpg";
 import sweetPotatoFlourImg from "@assets/african_valley_sweetpotato_1749147623825.jpg";
 import yogaClassImg from "@assets/african_valley_yoga_class_1749149694491.png";
+import spiceBlendsImg from "@assets/spices_africanvalley_foods.png";
 
 export default function ProductsSection() {
   const products = [
@@ -44,7 +45,7 @@ export default function ProductsSection() {
       name: "Traditional Spice Blends",
       description: "Authentic African spice combinations sourced directly from local farmers",
       features: "Authentic • Direct Sourced • Premium Quality",
-      image: "https://images.unsplash.com/photo-1596040033229-a9821ebd058d?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=300",
+      image: spiceBlendsImg,
     },
   
   ];
