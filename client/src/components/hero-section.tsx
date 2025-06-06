@@ -8,7 +8,7 @@ import { apiRequest } from "@/lib/queryClient";
 import { useToast } from "@/hooks/use-toast";
 import { motion } from "framer-motion";
 import customerImg from "@assets/african_valley_customer_1749147623825.jpeg";
-import bgImage from "@assets/african_valley_foods_bg.jpg";
+import bgImage from "@assets/african_valley_foods_bg.png";
 
 export default function HeroSection() {
   const [formData, setFormData] = useState({
