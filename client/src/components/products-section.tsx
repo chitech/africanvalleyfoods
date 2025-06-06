@@ -80,11 +80,11 @@ export default function ProductsSection() {
               whileHover={{ scale: 1.02 }}
             >
               <Card className="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300">
-                <div className="relative w-full h-48">
+                <div className="relative w-full h-48 bg-gray-50">
                   <img
                     src={product.image}
                     alt={product.name}
-                    className="w-full h-full object-contain p-4"
+                    className="w-full h-full object-cover object-center"
                   />
                 </div>
                 <CardContent className="p-6">
