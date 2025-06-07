@@ -51,7 +51,7 @@ export default function Navigation() {
             <button
               key={link.label}
               onClick={() => scrollToSection(link.href.substring(1))}
-              className="text-gray-600 hover:text-warm-orange transition-colors duration-200 font-medium"
+              className="text-gray-600 hover:text-accent-red transition-colors duration-200 font-medium"
             >
               {link.label}
             </button>
@@ -61,7 +61,7 @@ export default function Navigation() {
         <div className="hidden md:block">
           <Button 
             onClick={() => scrollToSection("contact")}
-            className="bg-warm-orange text-white hover:bg-deep-orange transition-colors rounded-full px-6"
+            className="bg-accent-red text-white hover:bg-accent-red/90 transition-colors rounded-full px-6"
           >
             Partner With Us
           </Button>
@@ -81,14 +81,14 @@ export default function Navigation() {
                   <button
                     key={link.label}
                     onClick={() => scrollToSection(link.href.substring(1))}
-                    className="text-left text-lg text-gray-600 hover:text-warm-orange transition-colors p-2"
+                    className="text-left text-lg text-gray-600 hover:text-accent-red transition-colors p-2"
                   >
                     {link.label}
                   </button>
                 ))}
                 <Button 
                   onClick={() => scrollToSection("contact")}
-                  className="bg-warm-orange text-white hover:bg-deep-orange transition-colors rounded-full mt-4"
+                  className="bg-accent-red text-white hover:bg-accent-red/90 transition-colors rounded-full mt-4"
                 >
                   Partner With Us
                 </Button>
