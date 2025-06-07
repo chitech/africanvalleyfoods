@@ -61,10 +61,11 @@ export default function HeroSection() {
         backgroundImage: `url(${bgImage})`,
         backgroundSize: 'cover',
         backgroundPosition: 'center',
-        backgroundRepeat: 'no-repeat',
+        backgroundRepeat: 'no-repeat'
       }}
     >
-      <div className="container mx-auto px-4 py-16 grid lg:grid-cols-2 gap-12 items-center">
+      <div className="absolute inset-0 bg-dark-brown/50 backdrop-blur-sm"></div>
+      <div className="container mx-auto px-4 py-16 grid lg:grid-cols-2 gap-12 items-center relative z-10">
         <motion.div 
           className="space-y-8"
           initial={{ opacity: 0, x: -50 }}
