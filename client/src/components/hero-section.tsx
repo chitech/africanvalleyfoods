@@ -28,14 +28,20 @@ export default function HeroSection() {
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.8 }}
           >
-            <h1 className="text-5xl md:text-6xl font-bold text-white mb-6">
-              Partner with African Valley Foods
-            </h1>
-            <p className="text-xl text-white/90 mb-8">
-              Join us in bringing authentic African flavors to your market. Premium quality products, sustainable sourcing, and a growing portfolio of traditional foods.
-            </p>
+            <div className="space-y-4">
+              <h1 className="text-5xl lg:text-6xl uppercase font-bold text-white leading-tight">
+                Food From Our Land{" "}
+                <span className="text-accent-red font-playfair italic">Food For Our Soul</span>
+                <span className="text-sm align-super">®</span>
+              </h1>
+              <p className="text-xl text-white/90 leading-relaxed">
+                Sharing Africa's diverse culinary traditions with those seeking authentic heritage. 
+                Partner with us to provide high-quality, nutritious African food products that celebrate 
+                culinary diversity and connect communities across borders and generations.
+              </p>
+            </div>
             
-            <Card className="shadow-xl border border-gray-100 bg-white/95 backdrop-blur-sm">
+            <Card className="shadow-xl border border-gray-100 bg-white/95 backdrop-blur-sm mt-8">
               <CardContent className="p-8">
                 <h3 className="text-2xl font-semibold text-dark-brown mb-6">Request Partnership Information</h3>
                 <form 
