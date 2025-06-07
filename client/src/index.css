@@ -29,6 +29,7 @@
   --emerald: 160 84% 39%; /* #10B981 */
   --neutral: 60 23% 89%; /* #F5F5DC - Beige */
   --dark-brown: 20 45% 12%; /* #2F1B14 */
+  --accent-red: 45 98% 49%; /* #F7BB01 */
 }
 
 .dark {
@@ -77,6 +78,10 @@
     color: hsl(var(--warm-orange));
   }
   
+  .text-accent-red {
+    color: hsl(var(--accent-red));
+  }
+  
   .text-deep-orange {
     color: hsl(var(--deep-orange));
   }
@@ -95,6 +100,10 @@
   
   .bg-warm-orange {
     background-color: hsl(var(--warm-orange));
+  }
+  
+  .bg-accent-red {
+    background-color: hsl(var(--accent-red));
   }
   
   .bg-deep-orange {
@@ -121,15 +130,23 @@
     border-color: hsl(var(--warm-orange));
   }
   
+  .border-accent-red {
+    border-color: hsl(var(--accent-red));
+  }
+  
   .hover\:bg-warm-orange:hover {
     background-color: hsl(var(--warm-orange));
   }
   
-  .hover\:bg-deep-orange:hover {
-    background-color: hsl(var(--deep-orange));
+  .hover\:bg-accent-red:hover {
+    background-color: hsl(var(--accent-red));
   }
   
   .hover\:text-warm-orange:hover {
     color: hsl(var(--warm-orange));
+  }
+  
+  .hover\:text-accent-red:hover {
+    color: hsl(var(--accent-red));
   }
 }
