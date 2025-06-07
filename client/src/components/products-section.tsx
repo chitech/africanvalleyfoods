@@ -71,7 +71,7 @@ export default function ProductsSection() {
         >
           <h2 className="text-4xl font-bold text-dark-brown mb-4">Featured Product Portfolio</h2>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto mb-4">
-            <span className="text-warm-orange font-semibold italic">"Food From Our Land, Food For Our Soul"</span>
+            <span className="text-accent-red font-semibold italic">"Food From Our Land, Food For Our Soul"</span>
           </p>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
             High-quality, nutritious African food products celebrating culinary diversity. 
@@ -104,7 +104,7 @@ export default function ProductsSection() {
                   <h3 className="text-xl font-semibold text-dark-brown mb-2">{product.name}</h3>
                   <p className="text-gray-600 mb-4">{product.description}</p>
                   <div className="mb-4">
-                    <span className="text-sm font-medium text-warm-orange bg-warm-orange/10 px-3 py-1 rounded-full">
+                    <span className="text-sm font-medium text-accent-red bg-accent-red/10 px-3 py-1 rounded-full">
                       {product.features}
                     </span>
                   </div>

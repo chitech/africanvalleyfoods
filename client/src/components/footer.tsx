@@ -55,7 +55,7 @@ export default function Footer() {
                 <a
                   key={social.label}
                   href={social.href}
-                  className="text-gray-300 hover:text-warm-orange transition-colors duration-200"
+                  className="text-gray-300 hover:text-accent-red transition-colors duration-200"
                   aria-label={social.label}
                 >
                   <social.icon className="w-6 h-6" />
@@ -76,7 +76,7 @@ export default function Footer() {
                 <li key={link.label}>
                   <button
                     onClick={() => scrollToSection(link.href)}
-                    className="text-gray-300 hover:text-warm-orange transition-colors duration-200"
+                    className="text-gray-300 hover:text-accent-red transition-colors duration-200"
                   >
                     {link.label}
                   </button>
@@ -97,7 +97,7 @@ export default function Footer() {
                 <li key={category.label}>
                   <a
                     href={category.href}
-                    className="text-gray-300 hover:text-warm-orange transition-colors duration-200"
+                    className="text-gray-300 hover:text-accent-red transition-colors duration-200"
                   >
                     {category.label}
                   </a>
@@ -125,11 +125,11 @@ export default function Footer() {
         <div className="border-t border-gray-700 pt-8 text-center">
           <p className="text-gray-300">
             © 2025 African Valley Foods. All rights reserved. |{" "}
-            <a href="#" className="hover:text-warm-orange transition-colors duration-200">
+            <a href="#" className="hover:text-accent-red transition-colors duration-200">
               Privacy Policy
             </a>{" "}
             |{" "}
-            <a href="#" className="hover:text-warm-orange transition-colors duration-200">
+            <a href="#" className="hover:text-accent-red transition-colors duration-200">
               Terms of Service
             </a>
           </p>

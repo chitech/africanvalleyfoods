@@ -75,7 +75,7 @@ export default function HeroSection() {
           <div className="space-y-4">
             <h1 className="text-5xl lg:text-6xl font-bold text-white leading-tight">
               Food From Our Land{" "}
-              <span className="text-warm-orange font-playfair italic">Food For Our Soul</span>
+              <span className="text-accent-red font-playfair italic">Food For Our Soul</span>
               <span className="text-sm align-super">®</span>
             </h1>
             <p className="text-xl text-white/90 leading-relaxed">
@@ -97,7 +97,7 @@ export default function HeroSection() {
                     value={formData.firstName}
                     onChange={(e) => handleInputChange("firstName", e.target.value)}
                     required
-                    className="border-gray-300 focus:ring-warm-orange focus:border-warm-orange"
+                    className="border-gray-300 focus:ring-accent-red focus:border-accent-red"
                   />
                   <Input
                     type="text"
@@ -105,7 +105,7 @@ export default function HeroSection() {
                     value={formData.lastName}
                     onChange={(e) => handleInputChange("lastName", e.target.value)}
                     required
-                    className="border-gray-300 focus:ring-warm-orange focus:border-warm-orange"
+                    className="border-gray-300 focus:ring-accent-red focus:border-accent-red"
                   />
                 </div>
                 <Input
@@ -114,7 +114,7 @@ export default function HeroSection() {
                   value={formData.email}
                   onChange={(e) => handleInputChange("email", e.target.value)}
                   required
-                  className="border-gray-300 focus:ring-warm-orange focus:border-warm-orange"
+                  className="border-gray-300 focus:ring-accent-red focus:border-accent-red"
                 />
                 <Input
                   type="tel"
@@ -122,7 +122,7 @@ export default function HeroSection() {
                   value={formData.phone}
                   onChange={(e) => handleInputChange("phone", e.target.value)}
                   required
-                  className="border-gray-300 focus:ring-warm-orange focus:border-warm-orange"
+                  className="border-gray-300 focus:ring-accent-red focus:border-accent-red"
                 />
                 <Button
                   type="submit"

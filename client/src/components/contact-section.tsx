@@ -93,7 +93,7 @@ export default function ContactSection() {
 
                 <Button 
                   type="submit"
-                  className="w-full bg-warm-orange hover:bg-warm-orange/90 text-white"
+                  className="w-full bg-accent-red hover:bg-accent-red/90 text-white"
                 >
                   Send Message
                 </Button>
