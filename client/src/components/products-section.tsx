@@ -10,6 +10,8 @@ import sweetPotatoFlourImg from "@assets/african_valley_sweetpotato_174914762382
 import yogaClassImg from "@assets/african_valley_yoga_class_1749149694491.png";
 import spiceBlendsImg from "@assets/spices_africanvalley_foods.png";
 import glutenFreeBurgerBunsImg from "@assets/gluten_free_africanvalley_buns.jpg";
+import jollofRiceGhanaImg from "@assets/jollof_rice_ghana.png";
+import jollofRiceNigeriaImg from "@assets/jollof_rice_nigeria.png";
 
 export default function ProductsSection() {
   const [selectedImage, setSelectedImage] = useState<string | null>(null);
@@ -57,6 +59,28 @@ export default function ProductsSection() {
       features: "Gluten Free • Direct Sourced • Premium Quality",
       image: glutenFreeBurgerBunsImg,
     },
+    {
+      name: "Jollof Rice Ghana Mix",
+      description: "Our signature jollof Ghanarice, made with the finest ingredients and traditional African spices. A perfect blend of flavors that brings the authentic taste of West Africa to your table.",
+      features: [
+        "Authentic West African Recipe",
+        "Premium Quality Rice",
+        "Rich in Traditional Spices",
+        "Perfect for Special Occasions"
+      ],
+      image: jollofRiceGhanaImg
+    },
+    {
+      name: "Jollof Rice Nigeria Mix",
+      description: "Nigeria's Jollof Rice Mix, made with the finest ingredients and traditional African spices. A perfect blend of flavors that brings the authentic taste of West Africa to your table.",
+      features: [
+        "Easy to Prepare",
+        "Authentic Spice Blend",
+        "Consistent Results",
+        "Perfect for Quick Meals"
+      ],
+      image: jollofRiceNigeriaImg
+    }
   ];
 
   return (
