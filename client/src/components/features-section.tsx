@@ -33,7 +33,7 @@ export default function FeaturesSection() {
           transition={{ duration: 0.6 }}
           viewport={{ once: true }}
         >
-          <h2 className="text-4xl font-bold text-[#FFD700] mb-4">Why Partner with African Valley Foods?</h2>
+          <h2 className="text-4xl uppercase font-bold text-[#FFD700] mb-4"> African Valley Foods</h2>
           <p className="text-xl text-gray-200 max-w-2xl mx-auto">
             Join a winning partnership that delivers growth, quality, and authentic African juice flavors
           </p>

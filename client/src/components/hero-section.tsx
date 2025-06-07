@@ -73,7 +73,7 @@ export default function HeroSection() {
           transition={{ duration: 0.8 }}
         >
           <div className="space-y-4">
-            <h1 className="text-5xl lg:text-6xl font-bold text-white leading-tight">
+            <h1 className="text-5xl lg:text-6xl uppercase font-bold text-white leading-tight">
               Food From Our Land{" "}
               <span className="text-accent-red font-playfair italic">Food For Our Soul</span>
               <span className="text-sm align-super">®</span>

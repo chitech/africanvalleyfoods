@@ -69,7 +69,7 @@ export default function ProductsSection() {
           transition={{ duration: 0.6 }}
           viewport={{ once: true }}
         >
-          <h2 className="text-4xl font-bold text-dark-brown mb-4">Featured Product Portfolio</h2>
+          <h2 className="text-4xl font-bold uppercase text-dark-brown mb-4">Featured Product Portfolio</h2>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto mb-4">
             <span className="text-accent-red font-semibold italic">"Food From Our Land, Food For Our Soul"</span>
           </p>
