@@ -5,6 +5,7 @@ import { users } from "./auth";
 
 export const leads = pgTable("leads", {
   id: serial("id").primaryKey(),
+  user_id: uuid("user_id").references(() => users.id),
   firstName: text("first_name").notNull(),
   lastName: text("last_name").notNull(),
   email: text("email").notNull(),
