@@ -1,6 +1,7 @@
-import { pgTable, text, serial, timestamp } from "drizzle-orm/pg-core";
+import { pgTable, text, serial, timestamp, uuid } from "drizzle-orm/pg-core";
 import { createInsertSchema } from "drizzle-zod";
 import { z } from "zod";
+import { users } from "./auth";
 
 export const leads = pgTable("leads", {
   id: serial("id").primaryKey(),
@@ -14,6 +15,7 @@ export const leads = pgTable("leads", {
 
 export const contactMessages = pgTable("contact_messages", {
   id: serial("id").primaryKey(),
+  user_id: uuid("user_id").references(() => users.id),
   firstName: text("first_name").notNull(),
   lastName: text("last_name").notNull(),
   email: text("email").notNull(),
