@@ -1,5 +1,4 @@
 import { createClient } from '@supabase/supabase-js';
-import { sendEmail } from './email';
 
 const supabase = createClient(
   process.env.SUPABASE_URL!,
@@ -25,16 +24,22 @@ export async function generateVerificationToken(email: string): Promise<string> 
 export async function sendVerificationEmail(email: string, token: string) {
   const verificationUrl = `${process.env.NEXT_PUBLIC_SITE_URL}/verify?token=${token}&email=${encodeURIComponent(email)}`;
   
-  await sendEmail({
-    to: email,
-    subject: 'Verify your submission to African Valley Foods',
-    html: `
-      <h1>Verify Your Submission</h1>
-      <p>Thank you for contacting African Valley Foods. Please click the link below to verify your submission:</p>
-      <a href="${verificationUrl}">Verify Submission</a>
-      <p>This link will expire in 24 hours.</p>
-    `,
+  // Use Supabase's built-in email service
+  const { error } = await supabase.auth.signInWithOtp({
+    email,
+    options: {
+      emailRedirectTo: verificationUrl,
+      data: {
+        token,
+        type: 'form_verification'
+      }
+    }
   });
+
+  if (error) {
+    console.error('Error sending verification email:', error);
+    throw error;
+  }
 }
 
 export async function verifyToken(token: string, email: string): Promise<boolean> {
