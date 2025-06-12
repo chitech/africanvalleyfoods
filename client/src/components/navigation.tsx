@@ -61,7 +61,7 @@ export default function Navigation() {
         <div className="hidden md:block">
           <Button 
             onClick={() => scrollToSection("contact")}
-            className="bg-accent-red text-white hover:bg-accent-red/90 transition-colors rounded-full px-6"
+            className="bg-accent-red text-white hover:bg-golden-yellow transition-colors rounded-full px-6"
           >
             Partner With Us
           </Button>
@@ -88,7 +88,7 @@ export default function Navigation() {
                 ))}
                 <Button 
                   onClick={() => scrollToSection("contact")}
-                  className="bg-accent-red text-white hover:bg-accent-red/90 transition-colors rounded-full mt-4"
+                  className="bg-golden-yellow text-white hover:bg-accent-red/90 transition-colors rounded-full mt-4"
                 >
                   Partner With Us
                 </Button>

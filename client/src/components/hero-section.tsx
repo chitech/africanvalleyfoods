@@ -31,7 +31,7 @@ export default function HeroSection() {
             <div className="space-y-4">
               <h1 className="text-5xl lg:text-6xl uppercase font-bold text-white leading-tight">
                 Food From Our Land{" "}
-                <span className="text-accent-red font-playfair italic">Food For Our Soul</span>
+                <span className="text-golden-yellow font-playfair italic">Food For Our Soul</span>
                 <span className="text-sm align-super">®</span>
               </h1>
               <p className="text-xl text-white/90 leading-relaxed">
