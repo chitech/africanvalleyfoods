@@ -7,11 +7,11 @@ import cassavaFlourImg from "@assets/african_valley_casava_flour_1749147623825.j
 import cocoyamFlourImg from "@assets/african_valley_cocoyam_1749147623825.jpg";
 import breadfruitFlourImg from "@assets/african_valley_foods_bread_flour_1749147623825.jpg";
 import sweetPotatoFlourImg from "@assets/african_valley_sweetpotato_1749147623825.jpg";
-import yogaClassImg from "@assets/african_valley_yoga_class_1749149694491.png";
 import spiceBlendsImg from "@assets/spices_africanvalley_foods.png";
 import glutenFreeBurgerBunsImg from "@assets/gluten_free_africanvalley_buns.jpg";
 import jollofRiceGhanaImg from "@assets/jollof_rice_ghana.png";
 import jollofRiceNigeriaImg from "@assets/jollof_rice_nigeria.png";
+import juicesImg from "@assets/afrian_valley_juices.png";
 
 export default function ProductsSection() {
   const [selectedImage, setSelectedImage] = useState<string | null>(null);
@@ -21,7 +21,7 @@ export default function ProductsSection() {
       name: "Premium NaturalJuice Collection",
       description: "Authentic African fruit juices connecting communities to traditional flavors. From fresh ginger and beetroot to six wild mangoes our juices blends - nourishment that celebrates cultural heritage",
       features: "Natural • Traditional Recipes • Health Benefits",
-      image: yogaClassImg,
+      image: juicesImg,
     },
     {
       name: "Cassava Flour",
